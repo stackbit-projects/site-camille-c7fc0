@@ -150,7 +150,7 @@ models:
         label: Footer Configuration
         models:
           - footer
-    file: config.json
+    file: blocks.json
   header:
     type: object
     label: Header Configuration
