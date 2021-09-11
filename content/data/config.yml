@@ -1,0 +1,51 @@
+title: Camille Toussaint
+path_prefix: /
+color_scheme: light
+accent_color: red
+base_font: fraunces
+header:
+  title: Camille Toussaint
+  logo: images/logo.svg
+  logo_alt: Camille Toussaint logo
+  has_nav: true
+  nav_links:
+    - label: Accueil
+      url: /
+      style: link
+    - label: Cours particuliers
+      url: /cours-particuliers
+      style: link
+      icon: dribbble
+      new_window: false
+      no_follow: false
+    - label: Mon expérience
+      url: /about/
+      style: link
+    - label: Blog
+      url: /blog/
+      style: link
+    - label: Contact
+      url: /contact/
+      style: button
+footer:
+  content: "&copy; 2021 Camille Toussaint"
+  has_social: true
+  social_links:
+    - label: Youtube
+      url: https://www.youtube.com/channel/UC0_9W_l5sq43T_GNZnB5EJQ
+      style: icon
+      icon: youtube
+      new_window: false
+      no_follow: false
+    - label: Facebook
+      url: https://www.facebook.com/camille.toussaint.francais
+      style: icon
+      icon: facebook
+      new_window: false
+      no_follow: false
+    - label: LinkedIn
+      url: https://www.linkedin.com/company/camille-toussaint/
+      style: icon
+      icon: linkedin
+      new_window: true
+domain: https://mon-site-a5fa0.netlify.app
