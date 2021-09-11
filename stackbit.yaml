@@ -219,7 +219,7 @@ models:
         models:
           - footer
     file: config.json
-    config:
+  blocks:
     type: data
     label: Site Configuration
     fields:
