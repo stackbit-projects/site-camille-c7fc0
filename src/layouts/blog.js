@@ -19,7 +19,7 @@ export default class Blog extends React.Component {
 
         return (
             <Layout page={page} config={config}>
-               { this.props.data.blocks.header.title}
+               { this.props.data}
 
                 <header
                     className={classNames('section', 'section--header', {
