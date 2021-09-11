@@ -19,6 +19,8 @@ export default class Blog extends React.Component {
 
         return (
             <Layout page={page} config={config}>
+                                                aaa { config.header.title}
+
                 <header
                     className={classNames('section', 'section--header', {
                         'screen-reader-text': hideTitle
@@ -29,7 +31,6 @@ export default class Blog extends React.Component {
                         {subtitle && <p className="section__subtitle">{subtitle}</p>}
                     </div>
                 </header>
-                                aaa { config.header.title}
 
                 <div className="section section--portfolio">
                     <div className="container container--lg">
