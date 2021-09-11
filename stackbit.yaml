@@ -287,7 +287,6 @@ models:
         models:
           - footer
     file: blocks.json
-  
   header:
     type: object
     label: Header Configuration
