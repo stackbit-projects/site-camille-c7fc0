@@ -221,7 +221,7 @@ models:
     file: config.json
   blocks:
     type: data
-    label: Site Configuration
+    label: Blocks
     fields:
       - type: string
         name: title
