@@ -19,7 +19,7 @@ export default class Blog extends React.Component {
 
         return (
             <Layout page={page} config={config}>
-               <pre>{JSON.stringify(this.props.data)}</pre>
+               <pre>{JSON.stringify(this.props.data, 2)}</pre>
 
                 <header
                     className={classNames('section', 'section--header', {
