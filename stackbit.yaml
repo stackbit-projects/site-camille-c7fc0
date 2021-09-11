@@ -151,7 +151,7 @@ models:
         models:
           - footer
     file: blocks.json
-  blocks:
+  config:
     type: data
     label: Site Configuration
     fields:
@@ -218,7 +218,7 @@ models:
         label: Footer Configuration
         models:
           - footer
-    file: blocks.json
+    file: config.json
     config:
     type: data
     label: Site Configuration
