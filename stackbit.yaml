@@ -84,6 +84,10 @@ models:
         label: Footer Configuration
         models:
           - footer
+      - name: hello
+        type: string
+        label: Hello
+        default: blabla
     file: config.yml
   blocks:
     type: data
