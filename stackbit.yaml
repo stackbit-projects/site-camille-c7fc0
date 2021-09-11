@@ -82,7 +82,7 @@ models:
         label: Footer Configuration
         models:
           - footer
-    file: config.json
+    file: config.yml
   blocks:
     type: data
     label: Blocks
